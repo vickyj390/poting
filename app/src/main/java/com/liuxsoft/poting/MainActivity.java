@@ -31,6 +31,7 @@ public class MainActivity extends ActionBarActivity {
         super.onResume();
         //在activity执行onResume时执行mMapView. onResume ()，实现地图生命周期管理
         mMapView.onResume();
+        
     }
     @Override
     protected void onPause() {
